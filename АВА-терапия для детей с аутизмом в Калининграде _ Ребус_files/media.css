@@ -1,0 +1,310 @@
+@media only screen and (max-width: 850px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+
+	.top-dotted-element {display: none}
+
+	.home-top-block {
+		margin-bottom: 46px;
+	}
+
+	.home-top-image {
+		display: block;
+		width: 100%;
+		position: relative;
+		top: auto;
+		left: auto;
+		z-index: 1;
+	}
+
+	h1, h1.home-top-title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 42px;
+		text-align: center;
+		margin: 26px 0 16px;
+	}
+
+	.home-top-wrapper {
+		width: auto;
+		height: auto;
+	}
+
+	.menu-burger {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		position: absolute;
+		right: 10px;
+		top: 33px;
+		width: 36px;
+		height: 26px;
+		cursor: pointer;
+	}
+
+	.header {
+		display: flex;
+		justify-content: space-between;
+		margin: 16px 0;
+		height: 150px;
+	}
+
+	.header > a {
+		display: block;
+	}
+
+	.top-phone-block {
+		position: relative;
+	}
+
+	.menu-burger-line {
+		display: block;
+		height: 2px;
+		background: #1AB587;
+	}
+
+	#topmenu {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		left: 10px;
+		right: 10px;
+		top: 60px;
+		z-index: 999;
+		padding: 16px;
+		background: rgba(255, 255, 255, 0.95);
+		border: 1px solid  #1AB587;
+	}
+
+	#topmenu li {
+		margin: 16px 0;
+	}
+
+	#topmenu li a {
+		font-size: 26px;
+		color: #1AB587;
+	}
+
+	.home-top-button-block {text-align: center}
+
+	.specialist-item {
+		width: auto;
+		padding-right: 10px;
+	}
+
+	.specialist-image-block {
+		width: 100%;
+		height: auto;
+		max-width: 324px;
+		max-height: 324px;
+	}
+
+	.specialist-image {
+		width: 100%;
+		height: auto;
+	}
+
+	.home-methods-item-internal, .methods-item-internal {
+		margin: 0 auto;
+	}
+
+	.specialist-page-thumb {
+		margin-top: 0;
+	}
+
+	.two-cols-layout {
+		display: block;
+	}
+
+	.left-col, .right-col {
+		margin: 16px 0;
+		display: block;
+	}
+
+	.right-col {
+		width: 100%;
+		flex: 1;
+	}
+
+	.methods-items {
+		justify-content: space-around;
+	}
+
+	.price-table td {
+		vertical-align: top;
+	}
+
+	.price-table td:nth-child(2) {
+		text-align: right;
+	}
+
+	.price-table td:nth-child(2):after {
+		content: "₽";
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+
+	h3 {
+		line-height: 1.5em;
+	}
+
+	.top-dotted-element {display: none}
+
+	.top-phone-block {
+		display: block;
+		margin-top: 80px;
+	}
+
+	.home-top-button {
+		display: block;
+	}
+	.our-benefits-items {
+		margin: 26px 0;
+		flex-direction: row;
+		padding: 0;
+		flex-wrap: wrap;
+	}
+
+	.our-benefits-item {
+		width: 45%;
+		margin: 2%;
+		padding: 10px;
+	}
+
+	.home-about-us-outer {
+		flex-direction: column;
+	}
+
+	.home-about-us-left {
+		width: auto;
+		height: auto;
+	}
+
+	.home-about-us-image {
+		position: relative;
+		z-index: 1;
+		left: 0;
+		top: auto;
+		width: 100%;
+	}
+
+	.home-about-us-right {
+		padding: 0;
+		margin: 16px 0;
+		width: auto;
+		background: none;
+	}
+
+	.footer-cols {
+		flex-direction: row;
+		align-items: center;
+		padding-bottom: 16px;
+		flex-wrap: wrap;
+	}
+
+	.footer-col-logo {
+		width: 100%;
+	}
+
+	.footer-col-links, .footer-col-methods {
+		width: 50%;
+	}
+
+	.footer-col-menus {
+		width: 70%;
+		justify-content: space-between;
+	}
+
+	.home-methods-item-internal, .methods-item-internal {
+		margin: auto;
+	}
+
+	.specialists-items {
+		grid-template-columns: 1fr;
+	}
+
+	.specialist-item {
+		margin: auto;
+	}
+
+	.methods-item {
+		margin: 16px auto;
+	}
+
+	.breadcrumb-block {
+		margin: 26px 0 16px;
+		padding: 0;
+	}
+
+	.specialist-page-thumb {
+		float: none;
+		margin: 16px auto;
+		display: block;
+	}
+
+	.specialists-extra-title {
+		margin-top: 26px;
+		margin-bottom: 26px;
+	}
+
+	.feedback-block {
+		flex-direction: column;
+	}
+
+	.feedback-box {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.top-info-img-block {
+		margin: 46px 0 0px;
+	}
+
+	.news-image-mobile {
+		display: block;
+	}
+
+	.news-image-mobile img, .home-info-block img {
+		display: block;
+		max-width: 100%;
+	}
+
+	.news-image {display: none}
+
+	.blog-index-list {
+		grid-template-columns: 1fr;
+		margin: 16px 0;
+	}
+	.blog-index-list li {
+		width: 100%;
+	}
+
+	.home-links-list {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.home-links-list li {
+		margin: 10px 0;
+		width: 100%;
+	}
+
+	.home-links-list li a {
+		white-space: normal;
+	}
+
+	.main-reviews {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.main-reviews > div {
+		margin-bottom: 20px;
+	}
+}
